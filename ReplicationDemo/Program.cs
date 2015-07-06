@@ -14,6 +14,7 @@ namespace ReplicationDemo
     {
         static void Main(string[] args)
         {
+            //
             using (var store = new DocumentStore
             {
                 Url = "http://localhost:8080",
