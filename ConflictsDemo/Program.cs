@@ -92,7 +92,6 @@ namespace ConflictsDemo
                 Console.ReadLine();
 
                 storeB.RegisterListener(new LastModifiedConflictResolver());
-
                 using (var session = storeB.OpenSession())
                 {
                     var user = session.Load<dynamic>("users/1");

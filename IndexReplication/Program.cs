@@ -23,7 +23,7 @@ namespace IndexReplication
             Map = users => from user in users
                 select new
                 {
-                    Name = user.FirstName + " - " + user.LastName
+                    Name = user.FirstName + " " + user.LastName
                 };
         }
     }

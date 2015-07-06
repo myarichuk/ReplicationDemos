@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CE17DF
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackupDemo", "BackupDemo\BackupDemo.csproj", "{27B56669-5C48-4B60-A689-3A619D61F024}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{07FC1BA5-F665-46A9-9B8F-CCB78B7E104A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07FC1BA5-F665-46A9-9B8F-CCB78B7E104A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07FC1BA5-F665-46A9-9B8F-CCB78B7E104A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27B56669-5C48-4B60-A689-3A619D61F024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27B56669-5C48-4B60-A689-3A619D61F024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27B56669-5C48-4B60-A689-3A619D61F024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27B56669-5C48-4B60-A689-3A619D61F024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
